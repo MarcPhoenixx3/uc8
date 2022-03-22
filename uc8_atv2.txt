@@ -1,0 +1,24 @@
+let numerovagas = 101
+let datadoevento = 21/02/2022
+let idade = 18
+
+console.log("Bem vindo a Semana do Programador")
+
+console.log("Para prosseguir com seu cadastramento, selecione uma de nossas palestras")
+if (datadoevento < 22/02/2022) {
+    console.log("Digite sua idade")
+} else{
+    console.log("O evento selecionado já ocorreu")
+}
+
+if (idade <= 17){
+    console.log("Que pena! Você não tem idade para participar desta palestra, selecione outra palestra")
+} else {
+    console.log("Aguarde um momento, enquanto verificamos o número de vagas disponíveis")
+}
+
+if (numerovagas <= 100){
+    console.log("Vagas disponíveis! Cadastramento concluído com sucesso")
+} else {
+    console.log("Que pena, limite de vagas excedido! Contamos com a sua participação no próximo evento")
+}
