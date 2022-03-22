@@ -1,0 +1,22 @@
+let listadepecas = ["pecadecarro1", "pecadecarro2", "pecadecarro3", "pe"];
+let peso = 200
+
+if (peso < 100){ 
+    console.log("A peça deve pesar no mínimo 100g")
+} else {
+    console.log("A peça possui o peso adequado")
+}
+
+if (listadepecas.length < 10){
+    console.log("É possível cadastrar mais peças")
+} else {
+    console.log("A lista não possui mais espaço")
+}
+
+if (listadepecas[3].length > 3){
+    console.log("Nome da peça está adequado para cadastro")
+} else if(listadepecas[3].length == 0){
+    console.log("Nome da peça não pode ser vazio")
+} else {
+    console.log("O nome da peça deve ter mais de 3 caracteres, digite um nome adequado")
+}
